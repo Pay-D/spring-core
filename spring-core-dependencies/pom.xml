@@ -16,7 +16,7 @@
         <java.version>25</java.version>
 
         <!-- Spring -->
-        <spring.boot.version>3.3.2</spring.boot.version>
+        <spring.boot.version>4.0.2</spring.boot.version>
 
         <!-- Libraries -->
         <mapstruct.version>1.6.0</mapstruct.version>
