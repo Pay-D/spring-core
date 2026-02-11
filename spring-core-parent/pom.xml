@@ -46,7 +46,7 @@
         <maven.enforcer.plugin.version>3.4.1</maven.enforcer.plugin.version>
         <jacoco.plugin.version>0.8.11</jacoco.plugin.version>
         <spotless.plugin.version>2.43.0</spotless.plugin.version>
-        <checkstyle.plugin.version>3.3.1</checkstyle.plugin.version>
+        <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
     </properties>
 
     <!-- BUILD -->
