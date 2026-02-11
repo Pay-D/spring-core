@@ -20,8 +20,11 @@ jobs:
           java-version: 25
           cache: maven
 
+      - name: Make mvnw executable (Unix)
+        run: chmod +x mvnw
+
       - name: Build with Maven (verify)
-        run: ./mvnw -B -V -e -DskipTests verify
+        run: ./mvnw -B -V -e verify
 
       - name: Run Checkstyle
         run: ./mvnw -B -q checkstyle:check

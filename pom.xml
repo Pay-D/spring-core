@@ -19,4 +19,30 @@
         <module>spring-core-parent</module>
     </modules>
 
+    <!-- Add Spotless plugin so CLI invocation at root works -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.diffplug.spotless</groupId>
+                <artifactId>spotless-maven-plugin</artifactId>
+                <version>2.43.0</version>
+                <configuration>
+                    <java>
+                        <googleJavaFormat/>
+                    </java>
+                    <pom/>
+                    <formats>
+                        <format>
+                            <includes>
+                                <include>**/*.md</include>
+                            </includes>
+                            <trimTrailingWhitespace/>
+                            <endWithNewline/>
+                        </format>
+                    </formats>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
