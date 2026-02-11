@@ -117,7 +117,7 @@ spring-core:
 
 ---
 
-# 📦 Dependency Management
+# Dependency Management
 
 Spring Boot wird über BOM importiert:
 
@@ -140,7 +140,7 @@ Prinzip:
 
 ---
 
-# 🔧 Plugin Management
+# Plugin Management
 
 Zentral verwaltet im Parent:
 
@@ -157,7 +157,7 @@ Child-Projekte dürfen keine Plugin-Versionen definieren.
 
 ---
 
-# 🧹 Code Quality & Clean Code Enforcement
+# Code Quality & Clean Code Enforcement
 
 ## Spotless
 
@@ -187,25 +187,7 @@ Erzwingt:
 
 ---
 
-# 🧪 Test Infrastruktur
-
-Testcontainers BOM integriert.
-
-Services können einfach nutzen:
-
-```xml
-<dependency>
-    <groupId>org.testcontainers</groupId>
-    <artifactId>postgresql</artifactId>
-    <scope>test</scope>
-</dependency>
-```
-
-Ohne Version.
-
----
-
-# 📖 OpenAPI Standard
+# OpenAPI Standard
 
 Vorkonfiguriert:
 
@@ -221,7 +203,7 @@ Swagger UI erreichbar unter:
 
 ---
 
-# 🪵 Logging
+# Logging
 
 Standardisiert auf:
 
@@ -238,7 +220,7 @@ Erweiterbar um:
 
 ---
 
-# 🔁 Reproducible Builds
+# Reproducible Builds
 
 Aktiviert:
 
@@ -248,7 +230,7 @@ Aktiviert:
 
 ---
 
-# 🚀 Verwendung in Service-Projekten
+# Verwendung in Service-Projekten
 
 In einem neuen Service:
 
@@ -275,7 +257,7 @@ Nur Parent-Version erhöhen.
 
 ---
 
-# 🔄 CI/CD Integration
+# CI/CD Integration
 
 Empfohlen:
 
@@ -297,7 +279,7 @@ Build schlägt fehl bei:
 
 ---
 
-# 📈 Versionierungsstrategie
+# Versionierungsstrategie
 
 Alle Module haben gleiche Version:
 
@@ -314,7 +296,7 @@ Release-Prozess:
 
 ---
 
-# 🏢 Ziel-Einsatz
+# Ziel-Einsatz
 
 Geeignet für:
 
@@ -326,7 +308,7 @@ Geeignet für:
 
 ---
 
-# 🔐 Governance Regeln
+# Governance Regeln
 
 Service-Projekte dürfen:
 
@@ -347,7 +329,7 @@ spring-core ist die einzige Quelle der Wahrheit.
 
 ---
 
-# 🧠 Fazit
+# Fazit
 
 `sprint-core` ist keine Template-App.
 
