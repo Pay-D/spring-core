@@ -19,7 +19,7 @@
         <spring.boot.version>3.3.2</spring.boot.version>
 
         <!-- Libraries -->
-        <mapstruct.version>1.6.0</mapstruct.version>
+        <mapstruct.version>1.6.3</mapstruct.version>
         <lombok.version>1.18.34</lombok.version>
         <springdoc.version>2.5.0</springdoc.version>
         <testcontainers.version>1.20.1</testcontainers.version>
